@@ -1,3 +1,6 @@
 {
-  "item.lordmod.bloodgem": "Blood Gem"
+  "item.lordmod.bloodgem": "Blood Gem",
+  "item.lordmod.raw_bloodgem": "Raw Blood Gem",
+
+  "creativetab.lord_tab": "Lord Mod Tab"
 }

@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> BLOOD_GEM = ITEMS.register("bloodgem",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_BLOOD_GEM = ITEMS.register("raw_bloodgem",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

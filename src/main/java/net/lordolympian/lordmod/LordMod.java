@@ -1,6 +1,7 @@
 package net.lordolympian.lordmod;
 
 import com.mojang.logging.LogUtils;
+import net.lordolympian.lordmod.item.ModCreativeModeTabs;
 import net.lordolympian.lordmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,7 @@ public class LordMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -52,6 +54,7 @@ public class LordMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BLOOD_GEM);
+            event.accept(ModItems.RAW_BLOOD_GEM);
         }
     }
 
