@@ -1,6 +1,7 @@
 package net.lordolympian.lordmod;
 
 import com.mojang.logging.LogUtils;
+import net.lordolympian.lordmod.block.ModBlocks;
 import net.lordolympian.lordmod.item.ModCreativeModeTabs;
 import net.lordolympian.lordmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class LordMod
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

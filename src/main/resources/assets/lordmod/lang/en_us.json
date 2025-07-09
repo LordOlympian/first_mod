@@ -2,5 +2,8 @@
   "item.lordmod.bloodgem": "Blood Gem",
   "item.lordmod.raw_bloodgem": "Raw Blood Gem",
 
+  "block.lordmod.blood_gem_block": "Block of Blood Gems",
+  "block.lordmod.raw_blood_gem_block": "Block of Raw Blood Gems",
+
   "creativetab.lord_tab": "Lord Mod Tab"
 }

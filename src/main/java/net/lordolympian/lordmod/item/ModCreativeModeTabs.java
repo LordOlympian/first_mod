@@ -1,6 +1,7 @@
 package net.lordolympian.lordmod.item;
 
 import net.lordolympian.lordmod.LordMod;
+import net.lordolympian.lordmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BLOOD_GEM.get());
                         output.accept(ModItems.RAW_BLOOD_GEM.get());
+                        output.accept(ModBlocks.BLOOD_GEM_BLOCK.get());
+                        output.accept(ModBlocks.RAW_BLOOD_GEM_BLOCK.get());
                     })
                     .build());
 
