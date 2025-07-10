@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lordmod:blood_gem_block"
+    }
+  ],
+  "result": {
+    "item": "lordmod:bloodgem",
+    "count": 9
+  }
+}

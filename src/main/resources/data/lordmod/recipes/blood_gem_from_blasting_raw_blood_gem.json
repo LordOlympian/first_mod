@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "bloodgem",
+  "ingredient": {
+    "item": "lordmod:raw_bloodgem"
+  },
+  "result": "lordmod:bloodgem"
+}
