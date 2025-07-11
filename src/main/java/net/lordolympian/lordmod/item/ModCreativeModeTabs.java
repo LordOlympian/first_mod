@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLOOD_GEM.get());
                         output.accept(ModItems.RAW_BLOOD_GEM.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.HEMOGLOBIN.get());
 
                         output.accept(ModBlocks.BLOOD_GEM_BLOCK.get());
                         output.accept(ModBlocks.RAW_BLOOD_GEM_BLOCK.get());
