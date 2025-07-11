@@ -1,6 +1,7 @@
 package net.lordolympian.lordmod.item;
 
 import net.lordolympian.lordmod.LordMod;
+import net.lordolympian.lordmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_BLOOD_GEM = ITEMS.register("raw_bloodgem",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(300)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
