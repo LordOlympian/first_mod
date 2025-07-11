@@ -1,6 +1,7 @@
 package net.lordolympian.lordmod.block;
 
 import net.lordolympian.lordmod.LordMod;
+import net.lordolympian.lordmod.block.custom.SoundBlock;
 import net.lordolympian.lordmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -25,6 +26,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> RAW_BLOOD_GEM_BLOCK = registerBlock("raw_blood_gem_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> BLOOD_GEM_ORE = registerBlock("blood_gem_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

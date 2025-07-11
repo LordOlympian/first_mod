@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.BLOOD_GEM_BLOCK.get());
                         output.accept(ModBlocks.RAW_BLOOD_GEM_BLOCK.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                         output.accept(ModBlocks.BLOOD_GEM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_BLOOD_GEM_ORE.get());
