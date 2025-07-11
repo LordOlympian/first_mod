@@ -22,8 +22,14 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BLOOD_GEM.get());
                         output.accept(ModItems.RAW_BLOOD_GEM.get());
+
                         output.accept(ModBlocks.BLOOD_GEM_BLOCK.get());
                         output.accept(ModBlocks.RAW_BLOOD_GEM_BLOCK.get());
+
+                        output.accept(ModBlocks.BLOOD_GEM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_BLOOD_GEM_ORE.get());
+                        output.accept(ModBlocks.NETHER_BLOOD_GEM_ORE.get());
+                        output.accept(ModBlocks.END_STONE_BLOOD_GEM_ORE.get());
                     })
                     .build());
 

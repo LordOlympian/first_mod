@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lordmod:block/nether_blood_gem_ore"
+  }
+}

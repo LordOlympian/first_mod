@@ -1,6 +1,10 @@
 {
   "values": [
     "lordmod:blood_gem_block",
-    "lordmod:raw_blood_gem_block"
+    "lordmod:raw_blood_gem_block",
+    "lordmod:blood_gem_ore",
+    "lordmod:deepslate_blood_gem_ore",
+    "lordmod:nether_blood_gem_ore",
+    "lordmod:end_stone_blood_gem_ore"
   ]
 }
